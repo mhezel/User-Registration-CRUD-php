@@ -1,0 +1,114 @@
+*{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+header .header-style{
+    font-family:Georgia;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+header nav ul{
+    display: block;
+    /*width: fit-content;*/
+    margin: 0 auto;
+}
+header nav ul li{
+    display: inline-block;
+    float: left;
+    padding: 0px 16px;
+}
+header nav ul li a{
+    font-family:Georgia;
+    font-size: 16px;
+    color: #111;
+}
+header .header-cases{
+    display: none;
+}
+/*INDEX PAGE*/
+.index-banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.index-banner h2{
+    font-family:Georgia;
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+}
+.index-banner h1{
+    font-family:"Rage Italic";
+    font-size: 28px;
+    font-weight: 100;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 40px;
+}
+.index-links div{
+    margin: 16px 16px 0px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.index-links div h3{
+    font-family:"Georgia";
+    font-size: 28px;
+    font-weight: 500;
+    color: #111;
+    text-align: center;
+    line-height: 100px;
+    text-transform: Capitalize;
+}
+
+footer{
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+footer ul li {
+    display: block;
+    list-style: none;
+
+}
+footer ul li a {
+    font-family:Georgia;
+    font-size: 20px;
+    color: #111;
+    line-height: 30px;
+}
+.footer-links-cases{
+    display: none;
+}
