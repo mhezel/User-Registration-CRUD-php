@@ -19,5 +19,5 @@ if (isset($_POST["submit"])) {
     $login->loginUser();
 
     // Going back to index page
-    header("location: ../homepage.php?error=none");
+    header("location: ../homepage.html?error=none");
 }

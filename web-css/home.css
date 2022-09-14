@@ -1,0 +1,213 @@
+*{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+header .header-style{
+    font-family:Georgia;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding-right: 35px;
+}
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 12px;
+}
+header nav ul li a{
+    font-family:Georgia;
+    font-size: 13px;
+    color: #111;
+    font-weight: 540;
+    text-transform: uppercase;
+}
+header .header-cases{
+    display: none;
+}
+
+/* FOR RESPONSIVE WEBSITE LAYOUT - DESKTOP VERSION */
+
+@media only screen and (min-width: 1000px) {
+
+    header .header-style {
+        margin-top: 31px;
+        padding: 0 20px 0 40px;
+        text-align: left;
+        line-height: 38px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 20px 0px 0px;
+        float: left;
+    }
+
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-cases {
+        display: block;
+        font-family:Georgia;
+        font-size: 16px;
+        color: #111;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        padding: 0 20px 0 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+/*INDEX PAGE*/
+.index-banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.index-banner h2{
+    font-family:Georgia;
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.index-banner h1{
+    font-family:"Rage Italic";
+    font-size: 28px;
+    font-weight: 100;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 40px;
+}
+
+.index-links div{
+    margin: 16px 16px 0px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.index-links div h3{
+    font-family:"Georgia";
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    line-height: 100px;
+    text-transform: Capitalize;
+}
+/* FOR RESPONSIVE WEBSITE LAYOUT - DESKTOP VERSION */
+
+@media only screen and (min-width: 1000px){
+
+    .wrap-center{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner{
+        width: 100%;
+        height: 650px;
+    }
+    .index-banner h1{
+        display: block;
+        width: 560px;
+        margin: 0px auto;
+    }
+    .index-links{
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+    .index-links div{
+        margin: 20px 10px 0px;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+    .index-square{
+        width: calc(25% - 20px) !important;
+
+    }
+    .index-rectangle{
+        width: calc(50% - 20px) !important;
+    }
+    .index-links div h3 {
+        line-height: 175px;
+    }
+}
+footer{
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+footer ul li {
+    display: block;
+    list-style: none;
+}
+footer ul li a {
+    font-family:Georgia;
+    font-size: 20px;
+    color: #111;
+    line-height: 30px;
+}
+.footer-links-cases{
+    display: none;
+}
+.footer-socmed{
+    width: 45px;
+    float: right;
+    line-height: 0px;
+}
+.footer-socmed img{
+    width: 100%;
+}
+@media only screen and (min-width: 1000px){
+
+    .footer-links-cases{
+        display: block;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+}
