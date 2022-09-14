@@ -1,41 +1,36 @@
-h4{
-    font-family: Georgia;
-    font-size: 24px;
-    font-weight: 100;
-    color: #000;
-    text-align: center;
-}
-p{
-    font-family: Georgia;
-    font-size: 14px;
-    font-weight: 70;
-    color: #000;
-    text-align: center;
-}
-form{
-    font-family: Georgia;
-    font-size: 16px;
-    font-weight: 100;
-    color: #000;
-    text-align: center;
-    display: block;
-}
-button{
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-/*INDEX PAGE*/
-section .index-login-signup{
-    width: 297.5px;
-    padding: 20px 20px 20px 20px;
-    background-color: #fff00e;
-    margin-left: 580px;
-    margin-top: 150px
-}
-section .index-login-login {
-    width: 297.5px;
-    padding: 10px 20px 20px 20px;
-    background-color: #FE7F88;
-    margin-left: 580px;
+
+.page-content{
 }
 
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: dodgerblue;
+}
+
+.register{
+    background-color: white;
+    background-size: cover;
+    height: 100%;
+    width: 250px;
+}
+
+.lines{
+
+    padding: 40px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form-1{
+    line-height: 25px;
+    padding-top: 10px;
+
+}
+.form-2{
+    line-height: 25px;
+    padding-top: 42px;
+
+}
