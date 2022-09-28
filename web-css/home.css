@@ -10,7 +10,7 @@ header{
     height: 100px;
 }
 header .header-style{
-    font-family:Georgia;
+    font-family:"Roboto Light";
     font-size: 24px;
     color: #111;
     font-weight: 900;
@@ -32,7 +32,7 @@ header nav ul li{
     padding: 0 12px;
 }
 header nav ul li a{
-    font-family:Georgia;
+    font-family:"Roboto Light";
     font-size: 13px;
     color: #111;
     font-weight: 540;
@@ -66,7 +66,7 @@ header .header-cases{
 
     header .header-cases {
         display: block;
-        font-family:Georgia;
+        font-family:"Roboto Light";
         font-size: 16px;
         color: #111;
         font-weight: 900;
@@ -95,7 +95,7 @@ header .header-cases{
     vertical-align: middle;
 }
 .index-banner h2{
-    font-family:Georgia;
+    font-family:"Roboto Light";
     font-size: 50px;
     font-weight: 900;
     color: #ffffff;
@@ -123,7 +123,7 @@ header .header-cases{
     background-color: #f2f2f2;
 }
 .index-links div h3{
-    font-family:"Georgia";
+    font-family:"Roboto Light";
     font-size: 28px;
     font-weight: 600;
     color: #111;
@@ -187,7 +187,7 @@ footer ul li {
     list-style: none;
 }
 footer ul li a {
-    font-family:Georgia;
+    font-family:"Roboto Light";
     font-size: 20px;
     color: #111;
     line-height: 30px;
