@@ -1,6 +1,7 @@
 body{
     background-color:#fff;
     margin: 150px 300px 150px 300px;
+
 }
 section{
     width: 100%;
@@ -8,79 +9,66 @@ section{
     text-align: center;
 }
 .about-career{
-    width: 100%;
-    float: left;
+    width: 500px;
 }
 .about-career h5 {
     font-family: Calibri;
     font-size: 12px;
+    text-align: justify;
     color: #111111;
 }
 .about-education{
     width: 500px;
-    float: right;
+    float: left;
+    line-height: 0;
 }
 .school-logo{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     float: left;
     padding-right: 20px;
     padding-left: 10px;
 }
 .about-education h4{
-    padding-top: 15px;
     font-family: Calibri;
     font-size: 15px;
     color: #111111;
+    padding-top: 35px;
 }
 .about-education h5{
-    font-family:     Calibri;
+    font-family: Calibri;
     font-size: 12px;
     color: #111111;
 }
 .main{
     width: 100%;
     float: left;
+    margin-top: 20px;
 }
 .work-logo{
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 15px;
     float: left;
 }
 .text-area{
     font-family: Calibri;
     color: #111111;
-    width: 500px;
-}
-.text-area h4{
-    font-size: 15px;
-}
-.text-area h6{
-    font-size: 12px;
-    line-height: 15px;
-}
-/*WORK 2*/
-.work-logo-2{
-    width: 140px;
-    height: 140px;
+    width: 750px;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
-    float: left;
-}
-.text-area{
-    font-family: Calibri;
-    color: #111111;
-    width: 500px;
 }
 .text-area h4{
     font-size: 15px;
+    line-height: 0px;
+    padding-top: 15px;
 }
 .text-area h6{
     font-size: 12px;
-    line-height: 15px;
+    text-align: left;
 }
 .skills-about-me{
-
+    display: inline-block;
 }
