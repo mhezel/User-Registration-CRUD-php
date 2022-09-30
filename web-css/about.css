@@ -1,74 +1,114 @@
-body{
-    background-color:#fff;
-    margin: 150px 300px 150px 300px;
-
+*{
+    margin: 0;
+    border: 0;
 }
-section{
-    width: 100%;
-    height: 150px;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 600px 600px 1fr;
+    grid-template-rows: 150px 250px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    ". title title ."
+    ". career . ."
+    ". skills education ."
+    ". work1 . ."
+    ". . work2 ."
+    ". work3 . .";
+    background-color: lightblue;
+}
+.title{
+    grid-area: title;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bolder;
     text-align: center;
+    padding-top: 50px;
 }
-.about-career{
-    width: 500px;
+.title h1{
+    font-size: 16px;
+    font-weight: normal;
 }
-.about-career h5 {
+.career{
+    grid-area: career;
     font-family: Calibri;
-    font-size: 12px;
-    text-align: justify;
-    color: #111111;
+    font-size: 24px;
+    font-weight: bolder;
 }
-.about-education{
-    width: 500px;
-    float: left;
-    line-height: 0;
+.career p{
+    font-size: 16px;
+    font-weight: normal;
+    width: fit-content;
 }
-.school-logo{
-    width: 160px;
-    height: 160px;
-    float: left;
-    padding-right: 20px;
-    padding-left: 10px;
-}
-.about-education h4{
+.education{
+    grid-area: education;
     font-family: Calibri;
-    font-size: 15px;
-    color: #111111;
-    padding-top: 35px;
+    font-size: 24px;
+    font-weight: bolder;
 }
-.about-education h5{
-    font-family: Calibri;
-    font-size: 12px;
-    color: #111111;
-}
-.main{
-    width: 100%;
+.education h4{
+    font-size: 16px;
+    font-weight: normal;
     float: left;
-    margin-top: 20px;
+    padding-top: 45px;
 }
-.work-logo{
-    width: 160px;
-    height: 160px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    float: left;
+.edu-logo{
+    padding-left: 20px;
 }
-.text-area{
+.work1{
+    grid-area: work1;
+    font-size: 24px;
+    font-weight: bolder;
     font-family: Calibri;
-    color: #111111;
-    width: 750px;
+}
+.work1 p{
     padding-top: 10px;
-    padding-left: 10px;
-}
-.text-area h4{
-    font-size: 15px;
-    line-height: 0px;
-    padding-top: 15px;
-}
-.text-area h6{
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: normal;
     text-align: left;
 }
-.skills-about-me{
-    display: inline-block;
+.work-logo1{
+    float: right;
+}
+.work2{
+    grid-area: work2;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Calibri;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.work2 p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+.work-logo2{
+    float: right;
+}
+
+.work3{
+    grid-area: work3;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Calibri;
+}
+.work3 p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+.work-logo3{
+    float: right;
+}
+
+.skills{
+    grid-area: skills;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+}
+.skills-about{
+    padding-top: 50px;
+    padding-left: 50px;
 }
